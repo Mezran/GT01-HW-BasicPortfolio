@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+header{
+  border-bottom: 1px solid black;
+}
+
+
+main{
+
+}
+
+.box{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+
+
+}
+
+.banner{
+  padding: 0px;
+  background-color: lightgreen;
+  width: 100%;
+  height: 25%;
+}
