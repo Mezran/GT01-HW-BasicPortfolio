@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Contact webpage</title>
+    <title>Hwk01-recommended</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -10,48 +10,58 @@
   <body>
     <!-- Used to hold the content of the persons name and
     a set of navigation buttons off to the side. -->
-    <header>
-      <!-- Nameplate -->
-      <content>
-        Your name
-      </content>
-      <!-- button holder -->
-      <navigation>
+  <header>
+    <div class="headerWrapper">
+      <div class="textName">
+        <p>
+          Stephen Allen
+        </p>
+      </div>
+      <div class="buttonContainer">
         <button type="button" name="button">AAAA</button>
         <button type="button" name="button">AAAA</button>
         <button type="button" name="button">AAAA</button>
-      </navigation>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <section>
-      <h1> Contact </h1>
-      <h3> Name</h3>
-      <input type="text" name="Input_name" value="zzz">
-      <h3> Email</h3>
-      <input type="text" name="Input_Email" value="zzz">
-      <h3> Message</h3>
-      <input type="text" name="Input_Message" value="zzz">
-
-      <button type="button" name="button-Submit">Submit</button>
-    </section>
+    <!-- used to hold the main portion of the webpage
+    content, containing about me information. -->
 
 
 
+    <main>
+      <div  class="mainWrapper">
+        <h1> Contact </h1>
+        <hr />
+        <h3> Name</h3>
+        <input type="text" name="Input_name" value="Mr. Mark">
+        <h3> Email</h3>
+        <input type="text" name="Input_Email" value="staylorallen@gmail.com">
+        <h3> Message</h3>
+        <input type="text" name="Input_Message" value="Message...">
 
+        <button type="button" name="button-Submit">Submit</button>
+      </div>
+    </main>
 
     <!-- This section is to be the small bar seperating
     the main content from the copyright at the bottom
     of the webpage -->
-    <section>
-      Blue bar
+    <footer>
+    <section class="blueFooterBar">
+
     </section>
 
 
     <!-- This section is to hold the copyright at the bottom
     of the page and end the page -->
-    <section>
-      Copyright
+    <section class="copyrightText">
+      <p class="centerText">
+        Copyright &copy;
+      </p>
     </section>
+    </footer>
 
 
   </body>
