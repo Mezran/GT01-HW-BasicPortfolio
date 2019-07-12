@@ -45,7 +45,7 @@ h2{
   top: 25%;
 }
 
-button{
+.button, button{
   width: 75px;
   height: 30px;
   font-size: 14px;
@@ -54,9 +54,12 @@ button{
   border: 0px;
   border-right: 1px solid #777777;
   background-color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-button:last-child{
+.button:last-child{
   border: 0px;
 }
 /* end header */
@@ -117,18 +120,6 @@ input{
   margin-top: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 img{
   float: left;
   margin-right: 10px;
@@ -173,24 +164,6 @@ img{
 
 
 /* end main */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer css */
