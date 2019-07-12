@@ -15,7 +15,7 @@ header{
 }
 
 .headerWrapper{
-  width: 70%;
+  width: 960px;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -73,7 +73,7 @@ main{
 
 .mainWrapper{
   border:1px solid #dddddd;
-  width: 70%;
+  width: 960px;
   height: 100%;
   background-color: #ffffff;
   margin: 0 auto;
